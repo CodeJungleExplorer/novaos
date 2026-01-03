@@ -1,97 +1,181 @@
-# 🚀 NovaOS – Your Personal AI Operating System
+🚀 NovaOS — Your Personal AI Operating System
 
-NovaOS is a modern, AI-powered personal operating system designed to help you organize life, build habits, manage tasks, and think clearly — all in one distraction-free interface.
+NovaOS is a modern, AI-powered personal operating system designed to help you organize your life, build sustainable habits, manage tasks, and think clearly — all in one distraction-free workspace.
 
-Built with a clean UI, smooth animations, and real-world productivity workflows, NovaOS feels less like an app and more like a system you live inside.
+Built with a clean, premium UI and real-world productivity workflows, NovaOS feels less like a traditional app and more like a system you live inside.
 
----
+🌐 Live Application
 
-## ✨ Why NovaOS?
+Frontend (Vercel)
+👉 https://novaos1-gm49lgvux-vishal-pandeys-projects-84f58808.vercel.app/
 
-Most productivity apps solve **one problem**.  
-NovaOS solves **your entire workflow**.
+Backend API (Render)
+👉 https://novaos-1.onrender.com
 
-- 🧠 Think clearly with AI assistance  
-- 🔥 Build habits that actually stick  
-- ✅ Track tasks without overwhelm  
-- 📝 Capture thoughts instantly  
-- 📊 See your life, not just your todos  
+NovaOS runs 24/7, is fully cloud-hosted, and requires no local setup to use.
 
----
+✨ Why NovaOS?
 
-## 🧩 Core Features
+Most productivity tools solve one isolated problem.
+NovaOS is built to support your entire daily workflow.
 
-### 📊 Dashboard
-- Unified overview of habits, todos, and notes  
-- Clean, minimal, OS-like layout  
-- Designed for focus, not noise  
+🧠 Think clearly with AI-powered assistance
 
-### 🔥 Habit Tracker
-- Create daily & weekly habits  
-- Visual progress tracking  
-- Designed around **consistency**, not streak pressure  
+🔥 Build habits that actually stick
 
-### ✅ Todo Management
-- Simple, fast task creation  
-- Clear completion flow  
-- No bloated features — just execution  
+✅ Track tasks without overwhelm
 
-### 📝 Notes
-- Quick note creation  
-- Perfect for ideas, reflections, planning  
-- Structured yet flexible  
+📝 Capture ideas and thoughts instantly
 
-### 🤖 AI Assistant
-- AI-powered summaries & assistance  
-- Helps you think, plan, and reflect better  
-- Integrated naturally into your workflow  
+📊 See meaningful insights about your life — not just raw data
 
-### 💬 Feedback System
-- Built-in feedback form  
-- Real-time backend handling  
-- Designed to improve NovaOS continuously  
+🧩 Core Features
+📊 Dashboard
 
----
+Unified overview of habits, todos, and notes
 
-## 🎨 UI / UX Philosophy
+Clean, OS-like layout designed for clarity
 
-- Dark, premium OS-style interface  
-- Glassmorphism & subtle animations  
-- Zero visual clutter  
-- Responsive across devices  
-- Designed to *feel calm*  
+Focused on signal, not noise
 
-> NovaOS is intentionally opinionated: fewer features, better experience.
+🔥 Habit Tracker
 
----
+Create daily and weekly habits
 
-## 🛠️ Tech Stack
+Visual progress tracking
 
-### Frontend
-- React + Vite  
-- Tailwind CSS  
-- Framer Motion  
-- React Router  
-- Modern component architecture  
+Designed around consistency, not streak pressure
 
-### Backend
-- Node.js  
-- Express.js  
-- REST APIs  
-- MongoDB Atlas  
+✅ Todo Management
 
-### Deployment
-- Frontend: Vercel  
-- Backend: Render  
-- Version Control: Git & GitHub  
+Fast, minimal task creation
 
----
+Clear completion flow
 
-## 👨‍💻 Author
+No unnecessary complexity — just execution
 
-**Vishal Pandey**  
-Full Stack Developer  
-📍 India  
+📝 Notes
 
-- GitHub: https://github.com/CodeJungleExplorer  
-- LinkedIn: https://www.linkedin.com/in/vishal-pandey-501223235  
+Instant note creation
+
+Ideal for ideas, reflections, and planning
+
+Structured yet flexible
+
+🤖 AI Assistant
+
+AI-powered summaries and insights
+
+Helps with thinking, planning, and reflection
+
+Integrated naturally into the workflow
+
+💬 Feedback System
+
+Built-in feedback form
+
+Real-time backend processing
+
+Designed to continuously improve NovaOS
+
+🎨 UI / UX Philosophy
+
+Dark, premium OS-style interface
+
+Glassmorphism and subtle motion
+
+Zero visual clutter
+
+Fully responsive across devices
+
+Designed to feel calm, focused, and intentional
+
+NovaOS is intentionally opinionated: fewer features, better experience.
+
+🚀 Deployment & Infrastructure
+
+NovaOS is deployed using a modern, production-grade cloud stack with full CI/CD.
+
+🐳 Docker (Backend)
+
+Backend is containerized using Docker
+
+Ensures consistent runtime across environments
+
+Simplifies deployment and scalability
+
+⚡ Vercel (Frontend)
+
+Hosts the React + Vite frontend
+
+Automatic builds and deployments from GitHub
+
+Optimized for performance and SPA routing
+
+🔥 Render (Backend)
+
+Hosts the Express + MongoDB API
+
+Auto-deploys on every GitHub push
+
+Secure environment variable management
+
+🔁 CI / CD Flow
+
+Code pushed to GitHub
+
+Vercel auto-builds & deploys the frontend
+
+Render auto-builds & deploys the backend
+
+Updates go live instantly — no manual intervention
+
+🛠️ Tech Stack
+Frontend
+
+React + Vite
+
+Tailwind CSS
+
+Framer Motion
+
+React Router
+
+Modular component architecture
+
+Backend
+
+Node.js
+
+Express.js
+
+REST APIs
+
+MongoDB Atlas
+
+DevOps & Tooling
+
+Docker (Backend containerization)
+
+Vercel (Frontend hosting)
+
+Render (Backend hosting)
+
+Git & GitHub (Version control & CI/CD)
+
+👨‍💻 Author
+
+Vishal Pandey
+Full Stack Developer
+📍 India
+
+GitHub: https://github.com/CodeJungleExplorer
+
+LinkedIn: https://www.linkedin.com/in/vishal-pandey-501223235
+
+⭐ Final Note
+
+NovaOS is built as a real-world, production-ready system, not just a demo project.
+It reflects strong focus on design, scalability, maintainability, and user experience.
+
+If you find this project useful or inspiring, feel free to ⭐ the repository.
