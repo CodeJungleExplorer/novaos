@@ -1,0 +1,43 @@
+<svg width="420" height="160" viewBox="0 0 420 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- ICON GRADIENT -->
+    <linearGradient id="iconGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"></stop>
+      <stop offset="50%" stop-color="#A855F7"></stop>
+      <stop offset="100%" stop-color="#6366F1"></stop>
+    </linearGradient>
+
+    <!-- TEXT GRADIENT (DOUBLE SHADE) -->
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E9D5FF"></stop>
+      <stop offset="50%" stop-color="#A5B4FC"></stop>
+      <stop offset="100%" stop-color="#38BDF8"></stop>
+    </linearGradient>
+
+    <!-- GLOW -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ================= ICON ================= -->
+  <g transform="translate(20,20)">
+    <!-- Orbit -->
+    <circle cx="60" cy="60" r="52" stroke="url(#iconGrad)" stroke-width="4" opacity="0.7"></circle>
+
+    <!-- Core -->
+    <circle cx="60" cy="60" r="36" fill="url(#iconGrad)" filter="url(#glow)"></circle>
+
+    <!-- Stylized N -->
+    <path d="M44 84V36L76 84V36" stroke="#020617" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+
+  <!-- ================= TEXT ================= -->
+  <text x="150" y="98" fill="url(#textGrad)" font-size="64" font-weight="700" font-family="Inter, Poppins, system-ui, sans-serif" letter-spacing="1">
+    NovaOS
+  </text>
+</svg>
