@@ -1,15 +1,16 @@
-🚀 NovaOS — Your Personal AI Operating System
+🚀 NovaOS
+Your Personal AI Operating System
 
-NovaOS is a modern, AI-powered personal operating system designed to help you organize your life, build sustainable habits, manage tasks, and think clearly — all in one distraction-free workspace.
+NovaOS is a modern, AI-powered personal operating system designed to help you organize life, build sustainable habits, manage tasks, and think clearly — all in one distraction-free workspace.
 
 Built with a clean, premium UI and real-world productivity workflows, NovaOS feels less like a traditional app and more like a system you live inside.
 
 🌐 Live Application
 
-Frontend (Vercel)
+🔗 Frontend (Vercel)
 👉 https://novaos1-gm49lgvux-vishal-pandeys-projects-84f58808.vercel.app/
 
-Backend API (Render)
+🔗 Backend API (Render)
 👉 https://novaos-1.onrender.com
 
 NovaOS runs 24/7, is fully cloud-hosted, and requires no local setup to use.
@@ -90,7 +91,8 @@ Fully responsive across devices
 
 Designed to feel calm, focused, and intentional
 
-NovaOS is intentionally opinionated: fewer features, better experience.
+NovaOS is intentionally opinionated:
+Fewer features. Better experience.
 
 🚀 Deployment & Infrastructure
 
@@ -131,7 +133,7 @@ Render auto-builds & deploys the backend
 Updates go live instantly — no manual intervention
 
 🛠️ Tech Stack
-Frontend
+🎨 Frontend
 
 React + Vite
 
@@ -141,9 +143,7 @@ Framer Motion
 
 React Router
 
-Modular component architecture
-
-Backend
+⚙️ Backend
 
 Node.js
 
@@ -153,7 +153,7 @@ REST APIs
 
 MongoDB Atlas
 
-DevOps & Tooling
+🚀 DevOps & Tooling
 
 Docker (Backend containerization)
 
@@ -169,13 +169,13 @@ Vishal Pandey
 Full Stack Developer
 📍 India
 
-GitHub: https://github.com/CodeJungleExplorer
+🔗 GitHub: https://github.com/CodeJungleExplorer
 
-LinkedIn: https://www.linkedin.com/in/vishal-pandey-501223235
+🔗 LinkedIn: https://www.linkedin.com/in/vishal-pandey-501223235
 
 ⭐ Final Note
 
 NovaOS is built as a real-world, production-ready system, not just a demo project.
-It reflects strong focus on design, scalability, maintainability, and user experience.
+It reflects a strong focus on design, scalability, maintainability, and user experience.
 
 If you find this project useful or inspiring, feel free to ⭐ the repository.
