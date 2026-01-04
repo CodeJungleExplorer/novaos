@@ -6,10 +6,11 @@ import {
   FaFire,
   FaCheckCircle,
   FaRobot,
+  FaCalendarAlt,
 } from "react-icons/fa";
 
 export default function Sidebar({ onNavigate, mobile = false }) {
-const base = `
+  const base = `
   flex items-center gap-3
   px-4 py-2.5
   rounded-xl
@@ -18,12 +19,9 @@ const base = `
   transition-all
 `;
 
-  const inactive =
-  "text-gray-400 hover:text-white hover:bg-white/5";
+  const inactive = "text-gray-400 hover:text-white hover:bg-white/5";
 
-const active =
-  "bg-white/10 text-white font-medium shadow-inner";
-
+  const active = "bg-white/10 text-white font-medium shadow-inner";
 
   const linkClass = ({ isActive }) => `${base} ${isActive ? active : inactive}`;
 
@@ -45,9 +43,9 @@ const active =
     >
       {/* LOGO */}
       <img
-  src={NovaLogo}
-  alt="NovaOS Logo"
-  className="
+        src={NovaLogo}
+        alt="NovaOS Logo"
+        className="
     w-64
     mx-auto
     mb-6
@@ -56,11 +54,10 @@ const active =
     opacity-95
     drop-shadow-[0_0_18px_rgba(99,102,241,0.45)]
   "
-/>
-
+      />
 
       {/* NAV */}
-<nav className="space-y-1 flex-1">
+      <nav className="space-y-1 flex-1">
         <NavLink to="/" end className={linkClass} onClick={handleClick}>
           <FaHome /> Dashboard
         </NavLink>
@@ -75,6 +72,10 @@ const active =
 
         <NavLink to="/todos" className={linkClass} onClick={handleClick}>
           <FaCheckCircle /> Todos
+        </NavLink>
+
+        <NavLink to="/calendar" className={linkClass} onClick={handleClick}>
+          <FaCalendarAlt /> Calendar
         </NavLink>
 
         <NavLink to="/ai" className={linkClass} onClick={handleClick}>

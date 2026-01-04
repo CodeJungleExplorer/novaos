@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import NotesPage from "./pages/NotesPage";
 import HabitsPage from "./pages/HabitsPage";
 import TodosPage from "./pages/TodosPage";
+import CalendarPage from "./pages/CalendarPage";
 import WeeklyDashboard from "./pages/WeeklyDashboard";
 import AIAssistant from "./pages/AIAssistant";
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/notes" element={<NotesPage />} />
           <Route path="/habits" element={<HabitsPage />} />
           <Route path="/todos" element={<TodosPage />} />
+          <Route path="/calendar" element={<CalendarPage />} />
           <Route path="/dashboard/weekly" element={<WeeklyDashboard />} />
           <Route path="/ai" element={<AIAssistant />} />
         </Routes>

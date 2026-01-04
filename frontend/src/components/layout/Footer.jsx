@@ -1,6 +1,6 @@
 import { API_BASE_URL } from "../../utils/api";
 import NovaLogo from "../../assets/novaos-logo.svg";
-import { FaGithub, FaLinkedin, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram,  FaSnapchatGhost } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -164,8 +164,25 @@ export default function Footer() {
 }
 
 const socials = [
-  { icon: <FaGithub />, label: "GitHub", link: "https://github.com/CodeJungleExplorer" },
-  { icon: <FaLinkedin />, label: "LinkedIn", link: "https://www.linkedin.com/in/vishal-pandey-501223235" },
-  { icon: <FaInstagram />, label: "Instagram", link: "https://www.instagram.com/vishal4_uy" },
-  { icon: <FaPhoneAlt />, label: "Phone", link: "tel:+918890525088" },
+  {
+    icon: <FaGithub />,
+    label: "GitHub",
+    link: "https://github.com/CodeJungleExplorer",
+  },
+  {
+    icon: <FaLinkedin />,
+    label: "LinkedIn",
+    link: "https://www.linkedin.com/in/vishal-pandey-501223235",
+  },
+  {
+    icon: <FaInstagram />,
+    label: "Instagram",
+    link: "https://www.instagram.com/vishal4_uy",
+  },
+  {
+    icon: <FaSnapchatGhost />,
+    label: "Snapchat",
+    link: "https://www.snapchat.com/add/vishalp111111",
+  },
 ];
+
