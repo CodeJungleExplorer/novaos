@@ -9,7 +9,7 @@ Built with a clean UI, smooth animations, and real-world productivity workflows,
 ## 🌐 Live Application
 
 - **Frontend (Vercel)**  
-  https://novaos1-gm49lgvux-vishal-pandeys-projects-84f58808.vercel.app/
+  novaos1.vercel.app
 
 - **Backend API (Render)**  
   https://novaos-1.onrender.com
