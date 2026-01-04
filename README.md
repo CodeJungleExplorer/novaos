@@ -8,13 +8,13 @@ Built with a clean UI, smooth animations, and real-world productivity workflows,
 
 ## 🌐 Live Application
 
-- **Frontend (Vercel)**  
-  https://novaos1.vercel.app
+**Frontend (Vercel)**  
+https://novaos1.vercel.app  
 
-- **Backend API (Render)**  
-  https://novaos-1.onrender.com
+**Backend API (Render)**  
+https://novaos-1.onrender.com  
 
-NovaOS runs **24/7**, is fully cloud-hosted, and requires no local setup.
+NovaOS runs **24/7**, is fully cloud-hosted, and requires **no local setup**.
 
 ---
 
@@ -58,9 +58,17 @@ NovaOS solves **your entire workflow**.
 - Helps you think, plan, and reflect better  
 - Integrated naturally into your workflow  
 
+### 📅 Cinematic Calendar 
+- Full monthly calendar view with **real-time date highlighting**  
+- Each month features a **cinematic wallpaper** for visual calm  
+- Clickable month & year selectors (no endless arrows)  
+- Smooth transitions with Framer Motion  
+- Fully responsive across **mobile, tablet, and desktop**  
+
 ### 💬 Feedback System
 - Built-in feedback form  
 - Real-time backend handling  
+- Email validation & error handling  
 - Designed to improve NovaOS continuously  
 
 ---
@@ -93,7 +101,7 @@ NovaOS solves **your entire workflow**.
 - MongoDB Atlas  
 
 ### Deployment & DevOps
-- Docker (Backend containerization)  
+- Docker (backend containerization)  
 - Frontend Hosting: Vercel  
 - Backend Hosting: Render  
 - Version Control & CI/CD: Git & GitHub  
